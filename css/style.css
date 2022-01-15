@@ -22,7 +22,7 @@ body{
     margin-left: 12px;
 }
 .container{
-    max-width: 1250px;
+    max-width: 1150px;
     width: 100%;
     margin: auto;
 }
@@ -33,6 +33,40 @@ section{
 
 
 /* -------------------- Header --------------------- */
+header{
+    padding: 60px 0;
+}
+header .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .content-wrapper .logo h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+header .content-wrapper .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .content-wrapper .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .content-wrapper .menu ul li{
+    margin: 0 12px;
+}
+header .content-wrapper .menu ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+header .content-wrapper .menu ul li i{
+    cursor: pointer;
+}
 /* --------------xxx--- Header ---xxx--------------- */
 
 
