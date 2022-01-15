@@ -173,9 +173,67 @@ header .content-wrapper .menu ul li i{
 
 
 /* -------------------- Features --------------------- */
+.features .content-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+}
+.features .heading{
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.features .left-content, .features .right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.features .right-content .title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.features .right-content ul li{
+    margin: 10px 0;
+    font-size: 18px;
+}
 /* --------------xxx--- Features ---xxx--------------- */
 
 
 
 /* -------------------- Footer --------------------- */
+footer{
+    padding: 50px 0;
+    background: #1b2c41;
+    text-align: center;
+}
+footer .heading{
+    color: #FFFFFF;
+}
+footer p{
+    color: #e0e0e0;
+    margin: 12px 0;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li{
+    margin: 7px 12px;
+    border-radius: 50%;
+    background: rgba(172, 171, 171, 0.144);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 /* --------------xxx--- Footer ---xxx--------------- */
