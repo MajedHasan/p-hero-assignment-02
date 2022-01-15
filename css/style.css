@@ -10,11 +10,15 @@ body{
 
 /* -------------------- Utilites --------------------- */
 .btn{
-    padding: 7px 35px;
+    padding: 10px 30px;
     border-radius: 25px;
     color: #FFFFFF;
     background: #dd257b;
     font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
 }
 .btn i{
     color: #FFFFFF;
@@ -27,7 +31,7 @@ body{
     margin: auto;
 }
 section{
-    margin: 35px 0;
+    margin: 80px 0;
 }
 
 
@@ -72,16 +76,98 @@ header .content-wrapper .menu ul li i{
 
 
 /* -------------------- Hero --------------------- */
+.hero .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero .content-wrapper .left-content, .hero .content-wrapper .right-content{
+    max-width: 50%;
+    width: 100%;
+}
+.hero .content-wrapper .left-content h1{
+    font-size: 50px;
+    color: #494949;
+}
+.hero .content-wrapper .left-content p{
+    font-size: 18px;
+    color: #494949;
+    margin: 25px 0;
+}
+.hero .content-wrapper .right-content img{
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin-left: auto;
+}
 /* --------------xxx--- Hero ---xxx--------------- */
 
 
 
 /* -------------------- Company --------------------- */
+.company{
+    margin: 120px 0;
+}
+.company .content-wrapper{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-top: 2px solid #DDDDDD;
+    border-bottom: 2px solid #DDDDDD;
+    padding: 25px 0;
+}
 /* --------------xxx--- Company ---xxx--------------- */
 
 
 
 /* -------------------- Products --------------------- */
+.products-section .products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.products-section .heading{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.products-section .products .product{
+    padding: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+.products-section .products .product img{
+    border-radius: 7px;
+    width: 100%;
+}
+.products-section .products .product .product-title{
+    font-size: 28px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.products-section .products .product .price{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ee168d;
+}
+.products-section .products .product .rating{
+    margin: 10px 0;
+}
+.products-section .products .product .rating i{
+    font-size: 17px;
+}
+.products-section .products .product .rating i.filled{
+    color: #ffa500;
+}
+.products-section .products .product .rating i.unfilled{
+    color: #dddddd;
+}
+.products-section .products .product .description{
+    font-size: 16px;
+    margin: 10px 0;
+}
 /* --------------xxx--- Products ---xxx--------------- */
 
 
