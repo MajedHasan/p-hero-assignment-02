@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* -------------------- Utilites --------------------- */
+.btn{
+    padding: 7px 35px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    background: #dd257b;
+    font-size: 18px;
+}
+.btn i{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.container{
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+}
+section{
+    margin: 35px 0;
+}
+
+
+
+/* -------------------- Header --------------------- */
+/* --------------xxx--- Header ---xxx--------------- */
+
+
+
+/* -------------------- Hero --------------------- */
+/* --------------xxx--- Hero ---xxx--------------- */
+
+
+
+/* -------------------- Company --------------------- */
+/* --------------xxx--- Company ---xxx--------------- */
+
+
+
+/* -------------------- Products --------------------- */
+/* --------------xxx--- Products ---xxx--------------- */
+
+
+
+/* -------------------- Features --------------------- */
+/* --------------xxx--- Features ---xxx--------------- */
+
+
+
+/* -------------------- Footer --------------------- */
+/* --------------xxx--- Footer ---xxx--------------- */
